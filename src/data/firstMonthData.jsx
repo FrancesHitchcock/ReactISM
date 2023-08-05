@@ -86,7 +86,7 @@ const firstMonth = {
                     id: nanoid(),
                     time: "2.00pm",
                     title: "Afternoon Tea:",
-                    details: "By kind permission of Mr A Tomkin in the grounds of St Margaret's Hall. Cost £5 per person. Games, auction and raffle. Home-made cakes £3 per slice. Profits to the Village Hall roof.",
+                    details: (<span>By kind permission of Mr A Tomkin in the grounds of St Margaret's Hall. Cost £5 per person. Games, auction and raffle. Home-made cakes £3 per slice. Profits to the Village Hall roof. Click here for <a href="/docs/flyers/afternoon-tea.jpg" target="_blank">more details</a>.</span>),
                 },
             ]
         },

@@ -6,7 +6,7 @@ export default function VillageShow(){
         <main className="main">
             <section className="image-section">
                 <PagePhoto
-                    imageUrl="/images/village-show.jpg"
+                    imageUrl="/images/heros/village-show.jpg"
                     altText="Entry to the village maked with a road sign displaying the name 'Ilketshall St Margaret' and a 30mph speed limit sign. The surrounding scenery comprises a green arable field and mature deciduous trees in full leaf. The top of the church tower can be seen in the background."
                 />
             </section>
@@ -22,7 +22,7 @@ export default function VillageShow(){
                     The Show aims to encourage as many of the community as possible to participate, and compete, in Growing, Baking and Making! Most importantly, the Show exists so that everyone can have a fun, family day out and at the same time, raising funds for the Village Hall. Long may it continue!
                 </p>
                 <p>
-                     Click the link to see the <a href="/flyers/schedule-2023.pdf" target="_blank">2023 Show Schedule</a>
+                     Click the link to see the <a href="/docs/flyers/schedule-2023.pdf" target="_blank">2023 Show Schedule</a>
                 </p>
             </section>
 
@@ -35,19 +35,19 @@ export default function VillageShow(){
                     Since that time, the Show has diversified into areas such as Handicraft, Photography and Tug Of War. The add on Fete has expanded with colourful stalls, games and sideshows.
                 </p>
                 <figure className="main-figure">
-                    <img src="/showHistory/flower-show-1950.jpg" alt="Flower Show at the Village Hall from the 1950s/60s"/>
+                    <img src="/images/showHistory/flower-show-1950.jpg" alt="Flower Show at the Village Hall from the 1950s/60s"/>
                     <figcaption>
                         Flower Show at the Village Hall from the 1950s/60s - Reverend Green, his wife and two children. The other lady in the hat is Mrs Scase, wife of the man who started the show with Mr Cannell. The lady pouring the tea is Jean Thrower whose parents kept the pub in the village.
                     </figcaption>
                 </figure>
                 <figure className="main-figure">
-                    <img src="/showHistory/flower-show-1970-B.jpg" alt="Flower Show at the Village Hall 1970"/>
+                    <img src="/images/showHistory/flower-show-1970-B.jpg" alt="Flower Show at the Village Hall 1970"/>
                     <figcaption>
                         Nostalgic newspaper cuttings from The Lowestoft Journal, Friday July 24, 1970: Visitors admire the floral display
                     </figcaption>
                 </figure>
                 <figure className="main-figure">
-                    <img src="/showHistory/flower-show-1970-C.jpg" alt="Flower Show at the Village Hall 1970"/>
+                    <img src="/images/showHistory/flower-show-1970-C.jpg" alt="Flower Show at the Village Hall 1970"/>
                     <figcaption>
                         Mr Charles Rogers holding his steer for the weight-judging contest at Ilketshall St Margaret & District Flower Show. His brother, Mr John Rogers was chairman of the committee for the first time. On the left is Mr H J Minister, winner of the Norman Challenge Trophy for most points for vegetables. 
                     </figcaption>
@@ -60,7 +60,7 @@ export default function VillageShow(){
                     <span className="first-sentence-span">Memorable moments from Saturday 16th July 2022</span>
                 </p>
                 <p>
-                     Click the link to see the report on the <a href="/flyers/flower-show-report-2022.pdf" target="_blank">2022 Ilketshall St Margaret Village Show.</a>
+                     Click the link to see the report on the <a href="/docs/flyers/flower-show-report-2022.pdf" target="_blank">2022 Ilketshall St Margaret Village Show.</a>
                 </p>
                 <p>
                     Memories of the Show are captured in our photo gallery below:

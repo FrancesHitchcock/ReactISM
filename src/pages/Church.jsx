@@ -5,7 +5,7 @@ export default function Church(){
         <main className="main">
             <section className="image-section">
                 <PagePhoto
-                    imageUrl="/images/church.jpg"
+                    imageUrl="/images/heros/church.jpg"
                     altText="Ilketshall Saint Margaret Church and churchyard with ancient gravestones. The church is built of stone and cobble. It has a round tower and prominent porch. In the foreground is a branch of tan-coloured beech leaves and some evergreen shrubs. In the background are mature winter deciduous trees."
                 />
             </section>
@@ -24,7 +24,7 @@ export default function Church(){
                     Later additions include the thirteenth century chancel windows and south doorway. The belfry is believed to be fourteenth century, whilst the nave windows are fifteenth century.
                 </p>
                 <p>
-                    Click on the link for the  <a href="/churchServices/Sunday-Service-Rota-2023.pdf" target="_blank">Saints Benefice Sunday Service Rota</a> 
+                    Click on the link for the  <a href="/docs/churchServices/Sunday-Service-Rota-2023.pdf" target="_blank">Saints Benefice Sunday Service Rota</a> 
                 </p>
                 <p>
                     Visit <a href="https://www.roundtowers.org.uk/" target="_blank">the Round Tower Churches Society</a> for more information.

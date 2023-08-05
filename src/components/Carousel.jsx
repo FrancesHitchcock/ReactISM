@@ -26,12 +26,12 @@ export default function Carousel(){
 
     return(
         <div className="stage" ref={ref} id="stage">
-            <img className="carousel-image" src='/images/high-street.jpg' />
-            <img className="carousel-image" src='/images/church.jpg' />
-            <img className="carousel-image" src='/images/field.jpg' />
-            <img className="carousel-image" src='/images/village-hall.jpg' />
-            <img className="carousel-image" src='/images/white-house-farm.jpg' />
-            <img className="carousel-image" src='/images/flower-field.jpg' />
+            <img className="carousel-image" src='/images/heros/high-street.jpg' />
+            <img className="carousel-image" src='/images/heros/church.jpg' />
+            <img className="carousel-image" src='/images/heros/field.jpg' />
+            <img className="carousel-image" src='/images/heros/village-hall.jpg' />
+            <img className="carousel-image" src='/images/heros/white-house-farm.jpg' />
+            <img className="carousel-image" src='/images/heros/flower-field.jpg' />
         </div>
     )
 }

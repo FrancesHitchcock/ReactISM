@@ -6,13 +6,13 @@ export default function Newsletter(){
         <main className="main">
             <section className="image-section">
                 <PagePhoto
-                    imageUrl="/images/flower-field.jpg"
+                    imageUrl="/images/heros/flower-field.jpg"
                     altText="Field with a mix of sunflowers and smaller mauve flowers. There is dense broad-leaved woodland in the background."
                 >
                     <div className="main-photo-link-container">
                         <div className="inner-link-container">
-                            <button className="newsletter-button"><a href={`/newsletters/Issue${newsletters.previous.issue}.pdf`} target="_blank">No. {newsletters.previous.issue}: {newsletters.previous.title}</a></button>
-                            <button className="newsletter-button"><a href={`/newsletters/Issue${newsletters.current.issue}.pdf`} target="_blank">No. {newsletters.current.issue}: {newsletters.current.title}</a></button>
+                            <button className="newsletter-button"><a href={`/docs/newsletters/Issue${newsletters.previous.issue}.pdf`} target="_blank">No. {newsletters.previous.issue}: {newsletters.previous.title}</a></button>
+                            <button className="newsletter-button"><a href={`/docs/newsletters/Issue${newsletters.current.issue}.pdf`} target="_blank">No. {newsletters.current.issue}: {newsletters.current.title}</a></button>
                         </div>
                     </div>
                 </PagePhoto> 

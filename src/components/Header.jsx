@@ -13,9 +13,9 @@ export default function Header(){
             <div className="hero">
                 <div className="title-container">
                     <span className="title-span">The village of</span>
-                    <img className="header-logo header-logo-wide" src="/icons/logo.png" alt="ISM village sign logo" />
+                    <img className="header-logo header-logo-wide" src="/images/icons/logo.png" alt="ISM village sign logo" />
                     <h1>Ilketshall St Margaret</h1>
-                    <img className="header-logo header-logo-mobile" src="/icons/logo.png" alt="ISM village sign logo" />
+                    <img className="header-logo header-logo-mobile" src="/images/icons/logo.png" alt="ISM village sign logo" />
                 </div>
             </div>
             {mobileScreen ? <MobileNav /> : <DesktopNav />}

@@ -7,18 +7,17 @@ export default function ShowGallery(){
         function getFrame(){
             if(imgUrls.length === 1){
                 return (
-                    <img className="show-image" src={`/showGalleryImages/2022-${imgUrls[0].url}.jpg`} alt={imgUrls[0].altText}/>
+                    <img className="show-image" src={`/images/showGalleryImages/2022-${imgUrls[0].url}.jpg`} alt={imgUrls[0].altText}/>
                 )
             }
             else {
                 return (
                     <>
-                        <img className="show-image" src={`/showGalleryImages/2022-${imgUrls[0].url}.jpg`} alt={imgUrls[0].altText}/>
-                        <img className="show-image" src={`/showGalleryImages/2022-${imgUrls[1].url}.jpg`} alt={imgUrls[1].altText}/>
+                        <img className="show-image" src={`/images/showGalleryImages/2022-${imgUrls[0].url}.jpg`} alt={imgUrls[0].altText}/>
+                        <img className="show-image" src={`/images/showGalleryImages/2022-${imgUrls[1].url}.jpg`} alt={imgUrls[1].altText}/>
                     </>
                 )
             }
-            
         }
         return (
             <div className="show-image-container" key={id}>
