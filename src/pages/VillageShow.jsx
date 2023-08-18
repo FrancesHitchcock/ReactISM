@@ -1,5 +1,5 @@
 import PagePhoto from "../components/PagePhoto"
-import ShowGallery from "../components/ShowGallery"
+import ShowGallery22 from "../components/ShowGallery22"
 
 export default function VillageShow(){
     return(
@@ -66,7 +66,7 @@ export default function VillageShow(){
                     Memories of the Show are captured in our photo gallery below:
                 </p>
             </section>
-            <ShowGallery />
+            <ShowGallery22 />
         </main>
     )
 }
