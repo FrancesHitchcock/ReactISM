@@ -12,6 +12,7 @@ import Newsletter from "./pages/Newsletter"
 import ParishMeeting from "./pages/ParishMeeting"
 import VillageHall from "./pages/VillageHall"
 import VillageShow from "./pages/VillageShow"
+import VillageShow23 from "./pages/VillageShow23"
 import Layout from "./components/Layout"
 import { firstMonth } from './data/firstMonthData'
 import { secondMonth } from './data/secondMonthData'
@@ -28,7 +29,7 @@ function App() {
                 <Route path="/parish-meeting" element={<ParishMeeting />}/>
                 <Route path="/newsletter" element={<Newsletter />}/>
                 <Route path="/church" element={<Church />} />
-                <Route path="/village-show" element={<VillageShow />}/>
+                <Route path="/village-show" element={<VillageShow23 />}/>
             </Route>
         </Routes>
     )
