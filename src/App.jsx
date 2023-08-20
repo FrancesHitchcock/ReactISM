@@ -29,7 +29,8 @@ function App() {
                 <Route path="/parish-meeting" element={<ParishMeeting />}/>
                 <Route path="/newsletter" element={<Newsletter />}/>
                 <Route path="/church" element={<Church />} />
-                <Route path="/village-show" element={<VillageShow23 />}/>
+                <Route path="/village-show" element={<VillageShow />}/>
+                <Route path="/village-show-23" element={<VillageShow23 />}/>
             </Route>
         </Routes>
     )
