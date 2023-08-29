@@ -29,7 +29,7 @@ import {nanoid} from "nanoid"
 // },
 
 const firstMonth = {
-    month: "August",
+    month: "September",
     year: "2023",
     regularEvents: [
         {
@@ -44,55 +44,19 @@ const firstMonth = {
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 5th August",
+            date: "Saturday 2nd September",
             events: [
                 {
                     id: nanoid(),
-                    time: (<span style={{textDecorationLine: "line-through", textDecorationColor: "red"}}>10.30am</span>),
-                    title: (<span style={{textDecorationLine: "line-through", textDecorationColor: "red"}}>Church Coffee Morning</span>),
-                    details: (<span style={{color: "red"}}>CANCELLED</span>),
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 8th August",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Wednesday 9th August",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "7.30pm",
-                    title: "Bingo Evening",
+                    time: "10.30am",
+                    title: "Church Coffee Morning",
                     details: "",
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Saturday 19th August",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "2.00pm",
-                    title: "Afternoon Tea:",
-                    details: (<span>By kind permission of Mr A Tomkin in the grounds of St Margaret's Hall. Cost £5 per person. Games, auction and raffle. Home-made cakes £3 per slice. Profits to the Village Hall roof. Click here for <a href="/docs/flyers/afternoon-tea.jpg" target="_blank">more details</a>.</span>),
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 22nd August",
+            date: "Tuesday 5th September",
             events: [
                 {
                     id: nanoid(),
@@ -104,7 +68,43 @@ const firstMonth = {
         },
         {
             id: nanoid(),
-            date: "Friday 25th August",
+            date: "Thursday 7th September",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "10.00am to 1.00pm",
+                    title: "Lindy Lou's Felt Making Class:",
+                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Tuesday 19th September",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "11.00am to 1.00pm",
+                    title: "Knit and Natter Group:",
+                    details: "All welcome. Cost £3 each.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Tuesday 26th September",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "7.00pm",
+                    title: "Parish Council First Aid Training",
+                    details: "",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Friday 29th September",
             events: [
                 {
                     id: nanoid(),

@@ -29,7 +29,7 @@ import {nanoid} from "nanoid"
 // },
 
 const secondMonth = {
-    month: "September",
+    month: "October",
     year: "2023",
     regularEvents: [
         {
@@ -44,7 +44,7 @@ const secondMonth = {
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 2nd September",
+            date: "Saturday 7th October",
             events: [
                 {
                     id: nanoid(),
@@ -52,11 +52,17 @@ const secondMonth = {
                     title: "Church Coffee Morning",
                     details: "",
                 },
+                {
+                    id: nanoid(),
+                    time: "7.30pm",
+                    title: "Eric's Famous Curry Night:",
+                    details: "Selection of meat and vegetable curries from India and Sri Lanka, followed by fabulous complementary desserts.",
+                },
             ]
         },
         {
             id: nanoid(),
-            date: "Tuesday 5th September",
+            date: "Tuesday 17th October",
             events: [
                 {
                     id: nanoid(),
@@ -68,49 +74,25 @@ const secondMonth = {
         },
         {
             id: nanoid(),
-            date: "Thursday 7th September",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "10.00am to 1.00pm",
-                    title: "Lindy Lou's Felt Making Class:",
-                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 19th September",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 26th September",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "7.00pm",
-                    title: "Parish Council First Aid Training",
-                    details: "",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Friday 29th September",
+            date: "Friday 27th October",
             events: [
                 {
                     id: nanoid(),
                     time: "7.30pm",
                     title: "Village Hall Social Evening:",
-                    details: "Cost £1. Bring your own drinks and nibbles.",
+                    details: "Cost £1. Log fire. Bring your own drinks and nibbles.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Tuesday 31st October",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "11.00am to 1.00pm",
+                    title: "Knit and Natter Group:",
+                    details: "All welcome. Cost £3 each.",
                 },
             ]
         },

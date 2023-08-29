@@ -34,42 +34,6 @@ const lookAhead = {
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 7th October",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "7.30pm",
-                    title: "Eric's Famous Curry Night:",
-                    details: "Selection of meat and vegetable curries from India and sri lanka, followed by fabulous complementary desserts.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 17th October",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 31st October",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
             date: "Friday 10th November",
             events: [
                 {
