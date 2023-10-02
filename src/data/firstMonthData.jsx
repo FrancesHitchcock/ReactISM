@@ -28,89 +28,87 @@ import {nanoid} from "nanoid"
 //     ]
 // },
 
+// to indicate a cancelled event, use code as follows, with classNames "strikethrough" and "red" that are already defined in the CSS: 
+// {
+//     id: nanoid(),
+//     time: (<><span className="strikethrough">10.30am</span></>),
+//     title: (<><span className="strikethrough">Church Coffee Morning</span> <span className="red">CANCELLED</span></>),
+//     details: "",
+// },
+
 const firstMonth = {
-    month: "September",
+    month: "October",
     year: "2023",
     regularEvents: [
         {
             id: nanoid(),
-            event: "Coffee Morning every Wednesday 10.30am to 12.00",
+            event: "Coffee Morning every Wednesday 10.30am to 12.00.",
         },
         {
             id: nanoid(),
-            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am, followed by coffee (open to all) at 11.30am" 
-        }
+            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am, followed by coffee (open to all) at 11.30am." 
+        },
+        {
+            id: nanoid(),
+            event: "Knit and Natter Group every Tuesday from 11.00am to 1.00pm. All welcome. Cost £3 each." 
+        },
+        {
+            id: nanoid(),
+            event: "Carol Singing every Tuesday evening. All welcome. Please contact Val on 01986 781540." 
+        },
     ],
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 2nd September",
+            date: "Saturday 7th October",
             events: [
                 {
                     id: nanoid(),
-                    time: "10.30am",
-                    title: "Church Coffee Morning",
+                    time: (<><span className="strikethrough">10.30am</span></>),
+                    title: (<><span className="strikethrough">Church Coffee Morning</span> <span className="red" style={{fontWeight: "normal"}}>CANCELLED</span></>),
                     details: "",
                 },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 5th September",
-            events: [
                 {
                     id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
+                    time: "7.30pm",
+                    title: "Eric's Famous Curry Night:",
+                    details: (<>Selection of meat and vegetable curries from India and Sri Lanka, followed by fabulous complementary desserts. <span className="red">FULLY BOOKED</span></>),
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Thursday 7th September",
+            date: "Friday 11th October",
             events: [
                 {
                     id: nanoid(),
-                    time: "10.00am to 1.00pm",
-                    title: "Lindy Lou's Felt Making Class:",
-                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
+                    time: "7.30pm",
+                    title: "Bingo Evening:",
+                    details: "Please arrive from 7.00pm for 7.30 start.",
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Tuesday 19th September",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Tuesday 26th September",
+            date: "Friday 20th October",
             events: [
                 {
                     id: nanoid(),
                     time: "7.00pm",
-                    title: "Parish Council First Aid Training",
-                    details: "",
+                    title: "Shared Supper:",
+                    details: "All welcome. Bring a plate of food. Contact Gerry on 01986 781014.",
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Friday 29th September",
+            date: "Friday 27th October",
             events: [
                 {
                     id: nanoid(),
                     time: "7.30pm",
                     title: "Village Hall Social Evening:",
-                    details: "Cost £1. Bring your own drinks and nibbles.",
+                    details: "Cost £1. Log fire. Bring your own drinks and nibbles.",
                 },
             ]
         },

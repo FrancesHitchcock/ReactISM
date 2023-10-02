@@ -74,6 +74,19 @@
   }
 }
 
+/* utility for cancelled events */
+
+.strikethrough{
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.red{
+  color: red;
+}
+
+/* general */
+
 body{
   margin: 0;
   font-family: var(--ff-primary);

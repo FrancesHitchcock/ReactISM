@@ -28,23 +28,39 @@ import {nanoid} from "nanoid"
 //     ]
 // },
 
+// to indicate a cancelled event, use code as follows, with classNames "strikethrough" and "red" that are already defined in the CSS: 
+// {
+//     id: nanoid(),
+//     time: (<><span className="strikethrough">10.30am</span></>),
+//     title: (<><span className="strikethrough">Church Coffee Morning</span> <span className="red">CANCELLED</span></>),
+//     details: "",
+// },
+
 const secondMonth = {
-    month: "October",
+    month: "November",
     year: "2023",
     regularEvents: [
         {
             id: nanoid(),
-            event: "Coffee Morning every Wednesday 10.30am to 12.00",
+            event: "Coffee Morning every Wednesday 10.30am to 12.00.",
         },
         {
             id: nanoid(),
-            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am, followed by coffee (open to all) at 11.30am" 
-        }
+            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am, followed by coffee (open to all) at 11.30am." 
+        },
+        {
+            id: nanoid(),
+            event: "Knit and Natter Group every Tuesday from 11.00am to 1.00pm. All welcome. Cost £3 each." 
+        },
+        {
+            id: nanoid(),
+            event: "Carol Singing every Tuesday evening. All welcome. Please contact Val on 01986 781540." 
+        },
     ],
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 7th October",
+            date: "Saturday 4th November",
             events: [
                 {
                     id: nanoid(),
@@ -52,29 +68,23 @@ const secondMonth = {
                     title: "Church Coffee Morning",
                     details: "",
                 },
-                {
-                    id: nanoid(),
-                    time: "7.30pm",
-                    title: "Eric's Famous Curry Night:",
-                    details: "Selection of meat and vegetable curries from India and Sri Lanka, followed by fabulous complementary desserts.",
-                },
             ]
         },
         {
             id: nanoid(),
-            date: "Tuesday 17th October",
+            date: "Friday 10th November",
             events: [
                 {
                     id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
+                    time: "7.30pm",
+                    title: "Hotpot Evening:",
+                    details: "A selection of meat or vegetable casseroles for you to choose from.",
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Friday 27th October",
+            date: "Friday 24th November",
             events: [
                 {
                     id: nanoid(),
@@ -86,13 +96,37 @@ const secondMonth = {
         },
         {
             id: nanoid(),
-            date: "Tuesday 31st October",
+            date: "Saturday 25th November",
             events: [
                 {
                     id: nanoid(),
-                    time: "11.00am to 1.00pm",
-                    title: "Knit and Natter Group:",
-                    details: "All welcome. Cost £3 each.",
+                    time: "11.00am to 2.00pm",
+                    title: "Wreath Making Class:",
+                    details: "Professional florist.  All materials provided. Tea, coffee, cake supplied. Go home with a beautiful Christmas wreath, ready to hang on your door.  All inclusive £30. Profits to the Village Hall roof.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Sunday 26th November",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "11.00am to 2.00pm",
+                    title: "Wreath Making Class:",
+                    details: "Details as above.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Thursday 30th November",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "10.00am to 1.00pm",
+                    title: "Lindy Lou's Felt Making Class:",
+                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
                 },
             ]
         },
