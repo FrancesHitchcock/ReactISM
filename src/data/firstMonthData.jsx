@@ -7,6 +7,9 @@ import {nanoid} from "nanoid"
 // to add markup to a string the property value will need to be in this format:
 // details: (<span>click on the link to visit <a href="https://stackoverflow.com/questions/14659240/angle-bracket-without-triggering-html-code">Stack Overflow</a></span>)
 
+// or 
+// details: (<span>A selection of meat or vegetable casseroles, pudding and raffle. Cost: adult £10; child £5. Booking essential. Click on the link for <a href="../../docs/flyers/hot_pot_night.jpg" target="_blank">more information</a>.</span>)
+
 // Where there are more than one event on the same day it should take the following format:
 
 // {
@@ -37,7 +40,7 @@ import {nanoid} from "nanoid"
 // },
 
 const firstMonth = {
-    month: "October",
+    month: "November",
     year: "2023",
     regularEvents: [
         {
@@ -46,7 +49,7 @@ const firstMonth = {
         },
         {
             id: nanoid(),
-            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am, followed by coffee (open to all) at 11.30am." 
+            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am (cost £2 each), followed by coffee (open to all) at 11.30am." 
         },
         {
             id: nanoid(),
@@ -60,25 +63,43 @@ const firstMonth = {
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 7th October",
+            date: "Saturday 4th November",
             events: [
                 {
                     id: nanoid(),
-                    time: (<><span className="strikethrough">10.30am</span></>),
-                    title: (<><span className="strikethrough">Church Coffee Morning</span> <span className="red" style={{fontWeight: "normal"}}>CANCELLED</span></>),
+                    time: "10.30am",
+                    title: "Church Coffee Morning",
                     details: "",
-                },
-                {
-                    id: nanoid(),
-                    time: "7.30pm",
-                    title: "Eric's Famous Curry Night:",
-                    details: (<>Selection of meat and vegetable curries from India and Sri Lanka, followed by fabulous complementary desserts. <span className="red">FULLY BOOKED</span></>),
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Friday 11th October",
+            date: "Thursday 9th November",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "10.00am to 1.00pm",
+                    title: "Lindy Lou's Felt Making Class:",
+                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Friday 10th November",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "7.30pm",
+                    title: "Hotpot Evening:",
+                    details: (<span>A selection of meat or vegetable casseroles, pudding and raffle. Cost: adult £10; child £5. Booking essential. Click on the link for <a href="../../docs/flyers/hot_pot_night.jpg" target="_blank">more information</a>.</span>),
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Wednesday 15th November",
             events: [
                 {
                     id: nanoid(),
@@ -90,25 +111,61 @@ const firstMonth = {
         },
         {
             id: nanoid(),
-            date: "Friday 20th October",
+            date: "Wednesday 22nd November",
             events: [
                 {
                     id: nanoid(),
-                    time: "7.00pm",
-                    title: "Shared Supper:",
-                    details: "All welcome. Bring a plate of food. Contact Gerry on 01986 781014.",
+                    time: "7.30pm",
+                    title: "Parish Meeting",
+                    details: "",
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Friday 27th October",
+            date: "Friday 24th November",
             events: [
                 {
                     id: nanoid(),
                     time: "7.30pm",
                     title: "Village Hall Social Evening:",
                     details: "Cost £1. Log fire. Bring your own drinks and nibbles.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Saturday 25th November",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "11.00am to 2.00pm",
+                    title: "Wreath Making Class:",
+                    details: "Professional florist.  All materials provided. Tea, coffee, cake supplied. Go home with a beautiful Christmas wreath, ready to hang on your door.  All inclusive £30. Profits to the Village Hall roof.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Sunday 26th November",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "11.00am to 2.00pm",
+                    title: "Wreath Making Class:",
+                    details: "Details as above.",
+                },
+            ]
+        },
+        {
+            id: nanoid(),
+            date: "Thursday 30th November",
+            events: [
+                {
+                    id: nanoid(),
+                    time: "10.00am to 1.00pm",
+                    title: "Lindy Lou's Felt Making Class:",
+                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
                 },
             ]
         },

@@ -34,25 +34,13 @@ const lookAhead = {
     dates: [
         {
             id: nanoid(),
-            date: "Sunday 17th December",
+            date: "Saturday 27th January",
             events: [
                 {
                     id: nanoid(),
-                    time: "1.00pm",
-                    title: "Christmas Lunch",
-                    details: "",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Friday 22nd December",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "time TBC",
-                    title: "Carol Singing:",
-                    details: "in the evening at the Village Hall.",
+                    time: "7.30pm",
+                    title: "Burns Night Supper:",
+                    details: "booking essential.",
                 },
             ]
         },

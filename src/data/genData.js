@@ -1,12 +1,12 @@
 
 const newsletters = {
     previous: {
-        issue: 68,
-        title: "Coronation Special"
-    },
-    current: {
         issue: 69,
         title: "July to Oct 2023"
+    },
+    current: {
+        issue: 70,
+        title: "Oct to Dec 2023"
     }
 }
 
