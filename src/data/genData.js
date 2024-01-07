@@ -11,9 +11,9 @@ const newsletters = {
 }
 
 const parishMeetingMins = {
-    urlFragment: "Meeting163.pdf",
-    number: 163,
-    title: "23 May 2023"
+    urlFragment: "Meeting165.pdf",
+    number: 165,
+    title: "23 November 2023"
 }
 
 

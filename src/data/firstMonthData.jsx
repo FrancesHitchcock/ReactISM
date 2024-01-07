@@ -40,8 +40,8 @@ import {nanoid} from "nanoid"
 // },
 
 const firstMonth = {
-    month: "November",
-    year: "2023",
+    month: "January",
+    year: "2024",
     regularEvents: [
         {
             id: nanoid(),
@@ -49,21 +49,17 @@ const firstMonth = {
         },
         {
             id: nanoid(),
-            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am (cost £2 each), followed by coffee (open to all) at 11.30am." 
+            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am EXCEPT 1st January (cost £3 each), followed by coffee (open to all) at 11.30am." 
         },
         {
             id: nanoid(),
             event: "Knit and Natter Group every Tuesday from 11.00am to 1.00pm. All welcome. Cost £3 each." 
         },
-        {
-            id: nanoid(),
-            event: "Carol Singing every Tuesday evening. All welcome. Please contact Val on 01986 781540." 
-        },
     ],
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 4th November",
+            date: "Saturday 6th January",
             events: [
                 {
                     id: nanoid(),
@@ -75,31 +71,7 @@ const firstMonth = {
         },
         {
             id: nanoid(),
-            date: "Thursday 9th November",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "10.00am to 1.00pm",
-                    title: "Lindy Lou's Felt Making Class:",
-                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Friday 10th November",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "7.30pm",
-                    title: "Hotpot Evening:",
-                    details: (<span>A selection of meat or vegetable casseroles, pudding and raffle. Cost: adult £10; child £5. Booking essential. Click on the link for <a href="../../docs/flyers/hot_pot_night.jpg" target="_blank">more information</a>.</span>),
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Wednesday 15th November",
+            date: "Wednesday 10th January",
             events: [
                 {
                     id: nanoid(),
@@ -111,61 +83,25 @@ const firstMonth = {
         },
         {
             id: nanoid(),
-            date: "Wednesday 22nd November",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "7.30pm",
-                    title: "Parish Meeting",
-                    details: "",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Friday 24th November",
+            date: "Friday 26th January",
             events: [
                 {
                     id: nanoid(),
                     time: "7.30pm",
                     title: "Village Hall Social Evening:",
-                    details: "Cost £1. Log fire. Bring your own drinks and nibbles.",
+                    details: "Cost £1. Bring your own drinks and nibbles.",
                 },
             ]
         },
         {
             id: nanoid(),
-            date: "Saturday 25th November",
+            date: "Saturday 27th January",
             events: [
                 {
                     id: nanoid(),
-                    time: "11.00am to 2.00pm",
-                    title: "Wreath Making Class:",
-                    details: "Professional florist.  All materials provided. Tea, coffee, cake supplied. Go home with a beautiful Christmas wreath, ready to hang on your door.  All inclusive £30. Profits to the Village Hall roof.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Sunday 26th November",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "11.00am to 2.00pm",
-                    title: "Wreath Making Class:",
-                    details: "Details as above.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Thursday 30th November",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "10.00am to 1.00pm",
-                    title: "Lindy Lou's Felt Making Class:",
-                    details: "All levels invited. Please call Linda on 07887 585055 for details including cost.",
+                    time: "7.30pm",
+                    title: "Burns Night Supper:",
+                    details: "complete with piper! Cost: adult £15; child £7.50. Booking essential.",
                 },
             ]
         },

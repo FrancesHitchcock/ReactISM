@@ -24,7 +24,7 @@ export default function Church(){
                     Later additions include the thirteenth century chancel windows and south doorway. The belfry is believed to be fourteenth century, whilst the nave windows are fifteenth century.
                 </p>
                 <p>
-                    Click on the link for the  <a href="/docs/churchServices/Sunday-Service-Rota-2023.pdf" target="_blank">Saints Benefice Sunday Service Rota</a> 
+                    Click on the link for the  <a href="/docs/churchServices/Sunday-Service-Rota-2024.pdf" target="_blank">Saints Benefice Sunday Service Rota</a> 
                 </p>
                 <p>
                     Visit <a href="https://www.roundtowers.org.uk/" target="_blank">the Round Tower Churches Society</a> for more information.

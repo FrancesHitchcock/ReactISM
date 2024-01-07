@@ -40,8 +40,8 @@ import {nanoid} from "nanoid"
 // },
 
 const secondMonth = {
-    month: "December",
-    year: "2023",
+    month: "February",
+    year: "2024",
     regularEvents: [
         {
             id: nanoid(),
@@ -49,21 +49,17 @@ const secondMonth = {
         },
         {
             id: nanoid(),
-            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am (cost £2 each), followed by coffee (open to all) at 11.30am." 
+            event: "Exercise for the over 60s (EFOS) every Monday at 10.30am (cost £3 each), followed by coffee (open to all) at 11.30am." 
         },
         {
             id: nanoid(),
             event: "Knit and Natter Group every Tuesday from 11.00am to 1.00pm. All welcome. Cost £3 each." 
         },
-        {
-            id: nanoid(),
-            event: "Carol Singing every Tuesday evening. All welcome. Please contact Val on 01986 781540." 
-        },
     ],
     dates: [
         {
             id: nanoid(),
-            date: "Saturday 2nd December",
+            date: "Saturday 3rd February",
             events: [
                 {
                     id: nanoid(),
@@ -73,63 +69,27 @@ const secondMonth = {
                 },
             ]
         },
+        // {
+        //     id: nanoid(),
+        //     date: "Wednesday 10th January",
+        //     events: [
+        //         {
+        //             id: nanoid(),
+        //             time: "7.30pm",
+        //             title: "Bingo Evening:",
+        //             details: "Please arrive from 7.00pm for 7.30 start.",
+        //         },
+        //     ]
+        // },
         {
             id: nanoid(),
-            date: "Sunday 3rd December",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "6.00pm",
-                    title: "Advent Carols:",
-                    details: "in St Margaret's Church.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Wednesday 10th December",
+            date: "Friday 23rd February",
             events: [
                 {
                     id: nanoid(),
                     time: "7.30pm",
-                    title: "Bingo Evening:",
-                    details: "Please arrive from 7.00pm for 7.30 start.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Sunday 17th December",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "1.00pm",
-                    title: "Village Christmas Lunch",
-                    details: "Cost: adult £15; child under 11 years £10. Please book with Eva on 01986 781312.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Friday 22nd December",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "7.00pm",
-                    title: "Carol Singing:",
-                    details: "at the Village Hall. Mince pies, mulled wine and open fire.",
-                },
-            ]
-        },
-        {
-            id: nanoid(),
-            date: "Sunday 24th December",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "3.00pm",
-                    title: "Carols and readings:",
-                    details: "in St Margaret's Church (bring a torch).",
+                    title: "Village Hall Social Evening:",
+                    details: "Cost £1. Bring your own drinks and nibbles.",
                 },
             ]
         },

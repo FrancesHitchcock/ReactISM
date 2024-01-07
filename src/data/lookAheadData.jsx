@@ -32,18 +32,7 @@ import {nanoid} from "nanoid"
 
 const lookAhead = {
     dates: [
-        {
-            id: nanoid(),
-            date: "Saturday 27th January",
-            events: [
-                {
-                    id: nanoid(),
-                    time: "7.30pm",
-                    title: "Burns Night Supper:",
-                    details: "booking essential.",
-                },
-            ]
-        },
+      
     ]
 }
 
